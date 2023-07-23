@@ -56,6 +56,7 @@ class LoginScreen extends StatelessWidget {
                                    ),
                                  ),
                          ),
+                       ///TextFormField (Email Adresss)
                         Positioned(
                           top: 250 ,
                           left: 50,
@@ -75,6 +76,7 @@ class LoginScreen extends StatelessWidget {
                           child: Container(
                             height:MediaQuery.of(context).size.height/15,
                             width: MediaQuery.of(context).size.width/1.2,
+                            color: Colors.white,
                             child:
                                 GetBuilder<AuthController>(
                                   init: AuthController(),
@@ -105,6 +107,7 @@ class LoginScreen extends StatelessWidget {
                             
                             ),
                         ),
+                       ///TextFormField (Password)
                         Positioned(
                           top: 360 ,
                           left: 50,
@@ -124,6 +127,7 @@ class LoginScreen extends StatelessWidget {
                           child: Container(
                             height:MediaQuery.of(context).size.height/15,
                             width: MediaQuery.of(context).size.width/1.2,
+                            color: Colors.white,
                             child:
                                 GetBuilder<AuthController>(
                                   init: AuthController(),
@@ -162,6 +166,7 @@ class LoginScreen extends StatelessWidget {
                             
                             ),
                         ),
+                       ///TextFormField (Forget Password)
                         Positioned(
                           top: 448,
                           left: 45,

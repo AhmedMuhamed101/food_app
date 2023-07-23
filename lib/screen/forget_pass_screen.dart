@@ -53,6 +53,7 @@ class ForgetPasswordScreen extends StatelessWidget {
                                    ),
                                  ),
                          ),
+                        ///TextFormField (Email Adresss)
                         Positioned(
                           top: 330 ,
                           left: 50,
@@ -72,6 +73,7 @@ class ForgetPasswordScreen extends StatelessWidget {
                           child: Container(
                             height:MediaQuery.of(context).size.height/15,
                             width: MediaQuery.of(context).size.width/1.2,
+                            color: Colors.white,
                             child:
                                 TextField(
                                      decoration: InputDecoration(

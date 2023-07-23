@@ -96,7 +96,7 @@ class SignupScreen extends StatelessWidget {
                             
                             ),
                         ),
-                       ///TextFormField (Email Adresss)
+                        ///TextFormField (Email Adresss)
                         Positioned(
                           top: 310,
                           left: 37,
